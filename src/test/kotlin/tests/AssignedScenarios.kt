@@ -3,9 +3,10 @@ package tests
 import org.junit.Assert
 import org.junit.Test
 
-class GoogleNewsAndroidTest: BaseTest() {
+class AssignedScenarios: BaseTest() {
     //override var caps: DesiredCapabilities? = ProjectCaps.AndroidBaseCapabilities()
 
+    // Scenario 1
     @Test
     fun loginViaInvalidCredentialsTest(){
         loginPage.selectLoginBtn()
